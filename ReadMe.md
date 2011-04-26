@@ -15,6 +15,7 @@ To install TabbyTerminal, open a terminal window and run this command:
 As always, you should [install_script][review the install] script before you run it. 
 [install_script]: http://heyadammiller.com/tabbyterminal/install.sh
 
+After you install, you'll either need to reload your bash profile or open a new terminal window or tab. 
 
 License
 -------
