@@ -1,5 +1,15 @@
 #!/bin/sh
 #
+#     /\__/\       _____      _      _          _____                                    _   
+#    /`    '\     (_   _)    ( )    ( )        (_   _)                    _             (_ ) 
+#  === 0  0 ===     | |   _ _| |_   | |_    _   _| |   __  _ __  ___ ___ (_) ___     _ _ | |
+#    \  --  /       | | /'_` ) '_`\ | '_`\ ( ) ( ) | /'__`\ '__)' _ ` _ `\ |' _ `\ /'_` )| |
+#   /        \      | |( (_| | |_) )| |_) )| (_) | |(  ___/ |  | ( ) ( ) | | ( ) |( (_| || |
+#  /          \     (_)`\__,_)_,__/'(_,__/'`\__, |_)`\____)_)  (_) (_) (_)_)_) (_)`\__,_)___)
+# |            |                             ( )_| | 
+#  \  ||  ||  /                              `\___/'
+#   \_oo__oo_/#######o
+# 
 # TabbyTerminal.sh
 # A small script to give you more control over tabs in terminal
 # 
@@ -11,7 +21,7 @@
 # If a command is passed in, it will attempt to execute the command after the new tab has been opened and the directory set
 #
 # Copyright © 2008 Adam Miller
-# Send feedback to heyadammiller@gmail.com 
+# Send feedback to adam@heyadammiller.com 
 #
 # This script is provided as is. Feel free to modify it however you like.
 
