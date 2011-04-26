@@ -39,15 +39,19 @@ Examples of use
 ---------------
 
 Run it without any arguments to open a new tab in your current working directory
+
 	new 
 
 Run it specifying the directory you'd like your new tab to start in
+
 	new ~/Sites/my-blog
 
 Pass it before a command you'd like to be run immediately in the new tab
+
 	new rails server
 	
 Or go for the gusto and pass a directory and a command 
+
 	new django_app manage.py activate
 	
 	
