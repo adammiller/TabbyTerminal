@@ -8,17 +8,12 @@ Allows you to run a command to open a new tab in your current working directory 
 Installing
 ----------
 
-*Note: These instructions assume you're working on a standard Mac OS X setup.*
+To install TabbyTerminal, open a terminal window and run this command:
 
-	# Download and unpack the script
-	cd ~/Downloads && curl -s http://heyadammiller.com/tabbyterminal/tabbyterminal.tar.gz | tar xzf -
-	# move the script to Library/Scripts/
-	mkdir -p ~/Library/Scripts/TabbyTerminal/
-	mv tabbyterminal.sh ~/Library/Scripts/TabbyTerminal/tabbyterminal.sh
-	# alias the command 'new' to tabbyterminal 
-	printf "\nalias new='. ~/Library/Scripts/TabbyTerminal/tabbyterminal.sh'" >> ~/.bash_profile
-	# reload your bash profile
-	. ~/.bash_profile
+	curl heyadammiller.com/tabbyterminal/install.sh | sh
+	
+As always, you should [install_script][review the install] script before you run it. 
+[install_script]: http://heyadammiller.com/tabbyterminal/install.sh
 
 
 License
