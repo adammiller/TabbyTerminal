@@ -15,21 +15,25 @@
 #
 
 
+# save the cwd for returning the user to later
+  CWD=`pwd`
 # Download and unpack the script
-  cd ~/Downloads && curl -s https://github.com/adammiller/TabbyTerminal/raw/master/tabbyterminal.sh
+  cd ~/Downloads && curl -sO https://raw.github.com/adammiller/TabbyTerminal/master/tabbyterminal.sh
   echo "*** Downloading TabbyTerminal..."
   
 # move the script to Library/Scripts/
 
   mkdir -p ~/Library/Scripts/TabbyTerminal/
   mv tabbyterminal.sh ~/Library/Scripts/TabbyTerminal/tabbyterminal.sh
-  echo "*** Installing..."
-  
-# alias the command 'new' to tabbyterminal 
+  echo "*** Installing to ~/Library/Scripts/TabbyTerminal/..."
+  echo "***"
+  echo "***"
+  echo "***"
+  echo "***"
+  echo "*** Install complete."
+  echo "***"
+  echo "*** Add the following alias to your .profile script or .dotfiles:"
+  echo "*** alias new='. ~/Library/Scripts/TabbyTerminal/tabbyterminal.sh'"
 
-  printf "\nalias new='. ~/Library/Scripts/TabbyTerminal/tabbyterminal.sh'" >> ~/.bash_profile
-  
-# show instructions for reloading .bash_profile
-
-  echo "*** Installed TabbyTerminal!\n\nReload your bash profile and try it out by running 'new'\n"
-  echo "You can reload your bash profile by running:\n\n\tsource ~/.bash_profile\n"
+# Return the user to their previous cwd
+  cd $CWD
