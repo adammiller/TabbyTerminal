@@ -1,6 +1,4 @@
-![Meow](logo.jpg)
-
-TabbyTerminal.sh
+![TabbyTerminal.sh](logo.jpg)
 ==================
 
 A small shell script to give you more control over tabs in Terminal.app
