@@ -16,7 +16,7 @@
 
 
 # Download and unpack the script
-  cd ~/Downloads && curl -s https://github.com/adammiller/TabbyTerminal/raw/master/tabbyterminal.tar.gz | tar xzf -
+  cd ~/Downloads && curl -s https://github.com/adammiller/TabbyTerminal/raw/master/tabbyterminal.sh
   echo "*** Downloading TabbyTerminal..."
   
 # move the script to Library/Scripts/
