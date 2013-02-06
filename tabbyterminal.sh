@@ -41,7 +41,8 @@ echo "$COMMAND $EXIT"
 osascript<<END
 try
     tell application "Terminal"
-				tell application "System Events" to tell process "Terminal" to keystroke "t" using command down
+    	activate
+		tell application "System Events" to tell process "Terminal" to keystroke "t" using command down
         do script with command "$COMMAND $EXIT" in window 1
     end tell
 end try

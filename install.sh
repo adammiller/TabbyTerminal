@@ -11,12 +11,12 @@
 #   \_oo__oo_/#######o
 # 
 # INSTALL SCRIPT
-# -- view the full docs on github https://github.com/adammiller/TabbyTerminal.sh
+# -- view the full docs on github https://github.com/adammiller/TabbyTerminal
 #
 
 
 # Download and unpack the script
-  cd ~/Downloads && curl -s http://heyadammiller.com/tabbyterminal/tabbyterminal.tar.gz | tar xzf -
+  cd ~/Downloads && curl -s https://github.com/adammiller/TabbyTerminal/raw/master/tabbyterminal.tar.gz | tar xzf -
   echo "*** Downloading TabbyTerminal..."
   
 # move the script to Library/Scripts/
