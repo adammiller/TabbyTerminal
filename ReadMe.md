@@ -12,15 +12,11 @@ To install TabbyTerminal, open a terminal window and run this command:
 
 	curl https://raw.github.com/adammiller/TabbyTerminal/master/install.sh | sh
 	
-As always, you should [install_script][review the install] script before you run it. 
+As always, you should [install_script][review the install] script before you run it.
 [install_script]: https://raw.github.com/adammiller/TabbyTerminal/master/install.sh
 
-After you install, you'll either need to reload your bash profile or open a new terminal window or tab. 
+After you install, the output will prompt you to setup an alias. The rest of these instructions assume you use the `new` alias as suggested in the output. It's totally up to you what command you choose; just substitute your chosen alias for `new` in the usage instructions. 
 
-License
--------
-
-http://unlicense.org/ - i.e. do what you want with it.
 
 
 Usage
@@ -49,8 +45,11 @@ Pass it before a command you'd like to be run immediately in the new tab
 Or go for the gusto and pass a directory and a command 
 
 	new django_app manage.py activate
-	
-	
-Known Problems
----------------
-TabbyTerminal uses applescript to control the terminal tabs, and as such, can be slow, and a bit lacking in intelligence. If you switch applications before the applescript completes, it will run the key command 'command + t' in the application you just switched to. 
+
+
+
+License
+-------
+
+http://unlicense.org/ - i.e. do what you want with it.
+
